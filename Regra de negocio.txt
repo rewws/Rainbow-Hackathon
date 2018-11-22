@@ -1,0 +1,30 @@
+Área de Serviço Público
+
+Interface de comunicação da sociedade com os monitores da prefeitura.
+
+Permite o usuário cadastrar suas informações pessoais como também cadastrar locais para acesso rápido:
+
+Usuario
+	PrimeiroNome
+	UltimoNome
+	Email
+	Senha
+	List<Local>
+
+Local
+	Descricao
+	Latitude
+	Longitude
+
+Na interface principal do aplicativo, o usuário poderá enviar avisos rápidos para os monitores da prefeitura:
+
+Aviso
+	TipoAviso
+	Descricao	
+	Local
+	
+O aplicativo também deve permitir que o usuário inicie um chat com os monitores da prefeitura:
+
+Chat
+	List<Mensagem>
+	
